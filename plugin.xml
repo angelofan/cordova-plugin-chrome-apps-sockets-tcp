@@ -21,7 +21,7 @@
   </js-module>
 
   <platform name="android">
-    <dependency id="cordova-plugin-chrome-apps-common@1.0.7" />
+    <dependency id="cordova-plugin-chrome-apps-common" version="^1.0.7" />
     <source-file src="src/android/ChromeSocketsTcp.java" target-dir="src/org/chromium" />
 
     <config-file target="res/xml/config.xml" parent="/widget">
@@ -32,8 +32,8 @@
   </platform>
 
   <platform name="ios">
-    <dependency id="cordova-plugin-chrome-apps-common@1.0.7" />
-    <dependency id="cordova-plugin-chrome-apps-iossocketscommon@1" />
+    <dependency id="cordova-plugin-chrome-apps-common" version="^1.0.7" />
+    <dependency id="cordova-plugin-chrome-apps-iossocketscommon" version="^1.0.2" />
     <framework src="Security.framework" />
     <framework src="CFNetwork.framework" />
     <source-file src="src/ios/ChromeSocketsTcp.m" />
