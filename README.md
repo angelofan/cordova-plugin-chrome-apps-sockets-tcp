@@ -12,6 +12,9 @@ The API reference is [here](https://developer.chrome.com/apps/sockets_tcp).
 
 # Release Notes
 
+## 1.3.10 (Jun 10, 2020)
+* Fix dependencies to match Cordova's plugin spec
+
 ## 1.3.9 (Sep 12, 2017)
 * Fix connect() not firing when failed on iOS
 * Fix write not triggering reading bytes on iOS
